@@ -1,10 +1,11 @@
-./.excluded-files
-./.exclusion-patterns
 ./.gitlab-ci.yml
 ./Jenkinsfile
 ./deploy/.env
 ./deploy/prod.env
+./deploy/uat.env
 ./gitlab-ci/build-pipeline.yml
 ./gitlab-ci/deploy-pipeline.yml
 ./gitlab-ci/lint-pipeline.yml
 ./local/.env
+.excluded-files
+.exclusion-patterns
